@@ -9,7 +9,7 @@
 <body>
     <h1>Mi segunda página</h1>
 
-    
+    li
 <script>
         /**
  * @param String name
@@ -30,12 +30,40 @@ function getParameterByName(name) {
           <td>Direccion</td>
           <td>Telefono</td>
           <td>Usuario</td>
-          <td>Contraseña</td>
       </tr>
-
+        <td>
+            <script>
+                document.write(getParameterByName("Nombre"))
+            </script>
+        </td>
+        
+        <td>
+            <script>
+                document.write(getParameterByName("Apellido"))
+            </script>
+        </td>
+        
+        <td>
+            <script>
+                document.write(getParameterByName("Direcion"))
+            </script>
+        </td>
+        
+        <td>
+            <script>
+                document.write(getParameterByName("Telefono"))
+            </script>
+        </td>
+        
+        <td>
+            <script>
+                document.write(getParameterByName("Usuario"))
+            </script>
+        </td>
       <tr>
+       
 
-
+        
       </tr>
   </table>
 
