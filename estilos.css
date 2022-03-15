@@ -1,0 +1,14 @@
+*{
+    color: #00ff00 rgb(72, 129, 84);
+    font-family: sans-serif;
+}
+
+table {
+
+    border: 1px solid black;
+}
+
+td {
+   border: 1px solid gold;
+   color: aqua; 
+}
