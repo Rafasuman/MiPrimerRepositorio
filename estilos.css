@@ -66,5 +66,5 @@ button{
 
     background-color: blue;
     width: 100px;
-    transform: rotate(5);
+    transform: rotate(30 deg);
 }
