@@ -65,5 +65,6 @@ button{
 .button.hover{
 
     background-color: blue;
+    width: 100px;
     transform: rotate(5);
 }
