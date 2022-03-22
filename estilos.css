@@ -62,7 +62,7 @@ button{
 }
 
 
-.button.hover{
+button:hover{
 
     background-color: blue;
     width: 100px;
